@@ -36,7 +36,7 @@ function toggleStopwatch() {
 	   toggle = false
 	   clearInterval(stopwatchInterval)
 	   mseconds = 0
-	   stopwatch.innerHTML = '00.00.000'
+	   stopwatch.innerHTML = '00.00.00'
 	   lapArr.length = 0
 	   laps.innerHTML = ''
     }
